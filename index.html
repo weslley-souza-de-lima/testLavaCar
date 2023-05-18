@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lava Car</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Lava Car</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2 class="hero-text">Deixe seu carro brilhando!</h2>
+            <a href="#services" class="cta-button">Saiba Mais</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-heading">Sobre Nós</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tincidunt, elit sit amet consequat tincidunt, lorem dolor rutrum nisl, vitae rutrum odio arcu ut justo. Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+            <p>Etiam consequat mauris sed fringilla elementum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse dignissim viverra felis non tempor.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2 class="section-heading">Nossos Serviços</h2>
+            <div class="services-grid">
+                <div class="service">
+                    <img src="images/service1.jpg" alt="Serviço 1">
+                    <h3>Serviço 1</h3>
+                    <p>Descrição do serviço 1.</p>
+                </div>
+                <div class="service">
+                    <img src="images/service2.jpg" alt="Serviço 2">
+                    <h3>Serviço 2</h3>
+                    <p>Descrição do serviço 2.</p>
+                </div>
+                <div class="service">
+                    <img src="images/service3.jpg" alt="Serviço 3">
+                    <h3>Serviço 3</h3>
+                    <p>Descrição do serviço 3.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-heading">Contato</h2>
+            <p>Preencha o formulário abaixo para agendar uma lavagem ou fazer uma pergunta.</p>
+            <form id="booking-form">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefone:</label>
+                    <input type="tel" id="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Lava Car. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
